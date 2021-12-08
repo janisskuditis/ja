@@ -1,0 +1,7 @@
+a = [0 ,1 ,2 ,3 ,4]
+a[0] = a[4]
+a[1] = len(a)
+b = a[0:2]
+print(a)
+c = [x * 5 for x in b]
+[x for b in a if b >= 20]
